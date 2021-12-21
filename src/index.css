@@ -11,6 +11,6 @@
     @apply flex flex-col min-h-full;
   }
   .container {
-    @apply px-4 sm:px-6;
+    @apply max-w-sm px-4 sm:px-8 mx-auto;
   }
 }

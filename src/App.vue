@@ -39,36 +39,6 @@ import Link from './components/Link.vue'
     </section>
 
     <section class="container my-6">
-      <h3 class="text-lg mb-4">Git</h3>
-      <div class="flex space-x-4 mb-4">
-        <a href="https://code.visualstudio.com/">
-          <img src="./assets/git-svgrepo-com.svg" alt="git" class="h-6">
-        </a>
-        <a href="https://code.visualstudio.com/">
-          <img src="./assets/github-svgrepo-com.svg" alt="github" class="h-6">
-        </a>
-      </div>
-
-      <ul class="list-disc list-inside">
-        <li>
-          Установка <Link href="https://git-scm.com/book/ru/v2/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-Git">git</Link>
-        </li>
-        <li>
-          Инициализиция git-репозитория
-        </li>
-        <li>
-          Создание локального коммита
-        </li>
-        <li>
-          Создание репозитария в Github
-        </li>
-        <li>
-          Отправление локального изменения в Github
-        </li>
-      </ul>
-    </section>
-
-    <section class="container my-6">
       <h3 class="text-lg mb-4">Фреймворки</h3>
       <div class="flex space-x-4 mb-4">
         <a href="https://tailwindcss.com/docs/guides/vite">
@@ -93,6 +63,31 @@ import Link from './components/Link.vue'
     </section>
 
     <section class="container my-6">
+      <h3 class="text-lg mb-4">Git</h3>
+      <div class="flex space-x-4 mb-4">
+        <a href="https://git-scm.com/book/ru/v2/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-Git">
+          <img src="./assets/git-svgrepo-com.svg" alt="git" class="h-6">
+        </a>
+        <a href="https://github.com/">
+          <img src="./assets/github-svgrepo-com.svg" alt="github" class="h-6">
+        </a>
+      </div>
+
+      <ul class="list-disc list-inside">
+        <li>
+          Установка <Link href="https://git-scm.com/book/ru/v2/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-Git">git</Link>
+        </li>
+        <li>
+          Создать аккаунт или войти в аккаунт в <Link href="https://github.com/">Github</Link>
+        </li>
+        <li>
+          Создать репозитарий в <Link href="https://github.com/new/">Github</Link> и следовать инструкциям по отправке локальных изменений в Github
+          <img src="/git-init.png" alt="git-init" class="w-full max-w-screen-sm mt-4">
+        </li>
+      </ul>
+    </section>
+
+    <section class="container my-6">
       <h3 class="text-lg mb-4">Сборка и хостинг</h3>
       <div class="flex space-x-4 mb-4">
         <a href="https://www.netlify.com/">
@@ -102,9 +97,28 @@ import Link from './components/Link.vue'
 
       <ul class="list-disc list-inside">
         <li>
-          Создание аккаунта в <Link href="https://www.netlify.com/">netlify</Link>
+          Создать аккаунта или войти в аккаунт в <Link href="https://www.netlify.com/">Netlify</Link>
+        </li>
+        <li>
+          Подключить наш репозитарий из <Link href="https://github.com/">Github</Link>-а в Netlify
         </li>
       </ul>
+      <div>
+        <h4 class="text-gray-600 my-4">Создать новый сайт</h4>
+        <img src="/netlify-site.png" alt="netlify-site" class="w-full max-w-screen-sm">
+      </div>
+      <div>
+        <h4 class="text-gray-600 my-4">Выбор источник</h4>
+        <img src="/netlify-git.png" alt="netlify-git" class="w-full max-w-screen-sm">
+      </div>
+      <div>
+        <h4 class="text-gray-600 my-4">Выбор репозитария</h4>
+        <img src="/netlify-git.png" alt="netlify-repository" class="w-full max-w-screen-sm">
+      </div>
+      <div>
+        <h4 class="text-gray-600 my-4">Деплой</h4>
+        <img src="/netlify-deploy.png" alt="netlify-deploy" class="w-full max-w-screen-sm">
+      </div>
     </section>
 
     <footer class="container text-sm text-gray-500 flex justify-between py-4">
